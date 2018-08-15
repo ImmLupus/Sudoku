@@ -63,7 +63,7 @@ main(){
 	char ch;
 	ifstream file("input.txt");
 	
-	cout<<"Ââåäèòå êîëè÷åñòâî ñèìâîëîâ: "; cin>>N;
+	cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¾Ð²: "; cin>>N;
 	A.resize(N); G.resize(N); GtoA.resize(N);
 	
 	for (int i=0; i<N; i++){
@@ -81,7 +81,7 @@ main(){
 	//*******************************************************************************************
 	loop1:
 	system("cls");
-	cout<<"Ðàçìåñòèòå öèôðû"<<endl<<endl;
+	cout<<"Ð Ð°Ð·Ð¼ÐµÑÑ‚Ð¸Ñ‚Ðµ Ñ†Ð¸Ñ„Ñ€Ñ‹"<<endl<<endl;
 	for (int i=0; i<N; i++){
 		for (int j=0; j<N; j++){
 			cout<<A[i][j]<<" ";
