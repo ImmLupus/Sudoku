@@ -63,7 +63,7 @@ main(){
 	char ch;
 	ifstream file("input.txt");
 	
-	cout<<"Введите количество символов: "; cin>>N;
+	cout<<"Enter the number of different digits."; cin>>N;
 	A.resize(N); G.resize(N); GtoA.resize(N);
 	
 	for (int i=0; i<N; i++){
@@ -81,7 +81,7 @@ main(){
 	//*******************************************************************************************
 	loop1:
 	system("cls");
-	cout<<"Разместите цифры"<<endl<<endl;
+	cout<<"Set the digits"<<endl<<endl;
 	for (int i=0; i<N; i++){
 		for (int j=0; j<N; j++){
 			cout<<A[i][j]<<" ";
