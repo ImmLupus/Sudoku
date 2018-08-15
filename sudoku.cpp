@@ -63,7 +63,7 @@ main(){
 	char ch;
 	ifstream file("input.txt");
 	
-	cout<<"Enter the number of different digits."; cin>>N;
+	cout<<"Enter the number of different digits: "; cin>>N;
 	A.resize(N); G.resize(N); GtoA.resize(N);
 	
 	for (int i=0; i<N; i++){
